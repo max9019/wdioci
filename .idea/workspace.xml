@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="C:\Users\Dmitriy\WebstormProjects\webdrivertest" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test:firefox">
+  <component name="RunManager" selected="npm.test:selenoid">
     <configuration name="report:generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -115,6 +116,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test:selenoid" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:selenoid" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.report:open" />
       <item itemvalue="npm.test:chrome:headless" />
@@ -122,9 +133,11 @@
       <item itemvalue="npm.test:firefox" />
       <item itemvalue="npm.test:firefox:headless" />
       <item itemvalue="npm.test:chrome" />
+      <item itemvalue="npm.test:selenoid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test:selenoid" />
         <item itemvalue="npm.test:firefox" />
         <item itemvalue="npm.test:chrome" />
         <item itemvalue="npm.test:firefox:headless" />
@@ -150,6 +163,7 @@
       <workItem from="1610767471689" duration="1266000" />
       <workItem from="1611625728942" duration="565000" />
       <workItem from="1611629563700" duration="134000" />
+      <workItem from="1611631690541" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
