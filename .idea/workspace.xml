@@ -38,6 +38,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -48,7 +54,7 @@
       <recent name="C:\Users\Dmitriy\WebstormProjects\webdrivertest" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test:chrome:headless">
+  <component name="RunManager" selected="npm.test:firefox">
     <configuration name="report:generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -111,11 +117,11 @@
     </configuration>
     <list>
       <item itemvalue="npm.report:open" />
+      <item itemvalue="npm.test:chrome:headless" />
       <item itemvalue="npm.report:generate" />
       <item itemvalue="npm.test:firefox" />
       <item itemvalue="npm.test:firefox:headless" />
       <item itemvalue="npm.test:chrome" />
-      <item itemvalue="npm.test:chrome:headless" />
     </list>
     <recent_temporary>
       <list>
@@ -142,6 +148,8 @@
       <workItem from="1610676225842" duration="623000" />
       <workItem from="1610716123244" duration="3855000" />
       <workItem from="1610767471689" duration="1266000" />
+      <workItem from="1611625728942" duration="565000" />
+      <workItem from="1611629563700" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
@@ -161,7 +169,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
