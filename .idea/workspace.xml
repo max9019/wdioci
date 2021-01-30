@@ -160,7 +160,7 @@
       <workItem from="1611625728942" duration="565000" />
       <workItem from="1611629563700" duration="134000" />
       <workItem from="1611631690541" duration="1579000" />
-      <workItem from="1611977923346" duration="1737000" />
+      <workItem from="1611977923346" duration="2238000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
