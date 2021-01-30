@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/base.conf.js" afterDir="false" />
-    </list>
+    <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +113,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test:selenoid" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test:selenoid" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -130,15 +126,14 @@
     <list>
       <item itemvalue="npm.report:open" />
       <item itemvalue="npm.test:chrome:headless" />
+      <item itemvalue="npm.test:selenoid" />
       <item itemvalue="npm.report:generate" />
       <item itemvalue="npm.test:firefox" />
       <item itemvalue="npm.test:firefox:headless" />
       <item itemvalue="npm.test:chrome" />
-      <item itemvalue="npm.test:selenoid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test:selenoid" />
         <item itemvalue="npm.test:firefox" />
         <item itemvalue="npm.test:chrome" />
         <item itemvalue="npm.test:firefox:headless" />
@@ -165,7 +160,7 @@
       <workItem from="1611625728942" duration="565000" />
       <workItem from="1611629563700" duration="134000" />
       <workItem from="1611631690541" duration="1579000" />
-      <workItem from="1611977923346" duration="1387000" />
+      <workItem from="1611977923346" duration="1737000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
